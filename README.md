@@ -10,8 +10,18 @@ My Windows setup
       ```
    2. Dev essential packages:
       ```sh
-      $ choco install -y git gitkraken vscode postman
+      $ choco install -y git gitkraken vscode postman nvm
       ```
+
+2. Install OpenSSH and config 1Password
 
 - Install OpenSSH on Windows: https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
 - Config 1Password for Windows: https://developer.1password.com/docs/ssh/agent/
+
+
+
+## Essential global Node.js packages
+
+```sh
+$ npm install -g pnpm yarn ts-node nodemon
+```
