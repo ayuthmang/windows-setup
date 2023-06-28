@@ -2,13 +2,16 @@
 
 My Windows setup
 
-1. Install chocolatey (https://chocolatey.org/install):
-   Then open powershell as administrator privillege and install following packages:
+1. Install Chocolatey (https://chocolatey.org/install):
+   Then open Powershell as administrator privilege and install the following packages:
    1. Install essential packages:
       ```sh
       $ choco install -y brave discord docker-desktop powershell-core processhacker telegram notion
       ```
    2. Dev essential packages:
-     ```sh
-     $ choco install -y git gitkraken vscode postman
-     ```
+      ```sh
+      $ choco install -y git gitkraken vscode postman
+      ```
+
+- Install OpenSSH on Windows: https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
+- Config 1Password for Windows: https://developer.1password.com/docs/ssh/agent/
