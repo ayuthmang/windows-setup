@@ -21,10 +21,9 @@ My Windows setup
    $ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
    ```
 
-4. Install OpenSSH and config 1Password
-
-- Install OpenSSH on Windows: https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
-- Config 1Password for Windows: https://developer.1password.com/docs/ssh/agent/
+3. Install OpenSSH and config 1Password:
+   - Install OpenSSH on Windows: https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
+   - Config 1Password for Windows: https://developer.1password.com/docs/ssh/agent/
 
 
 
